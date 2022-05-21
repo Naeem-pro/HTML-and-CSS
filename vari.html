@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+            --box-color:red;
+            width: 200px;
+            height: 200px;
+            background-color:var(--box-color);
+            margin: 10px;
+            
+        }
+        .box:hover{
+            box-shadow: 3px 3px 10px green;
+            cursor: pointer;
+        }
+        .container{
+            display: flex;
+            justify-content: center;
+        }
+        .btn{
+            justify-self: center;
+            margin-top: 154px;
+            margin-left: 54px;
+            height: 30px;
+            border: 2px solid #fff;
+        }
+        .btn:hover{
+            cursor: pointer;
+            background-color: transparent;
+            color:#eee;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            <button class="btn">Read more</button>
+        </div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+    </div>
+</body>
+</html>

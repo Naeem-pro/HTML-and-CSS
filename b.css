@@ -1,0 +1,71 @@
+
+body {
+    background-color: yellowgreen;
+}
+#title {
+    color:white;
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+}
+#description  {
+    color:white;
+    text-align: center;
+}
+  #survey-form  {
+    background-color:red;
+    width:500px;
+    border-radius:10px;
+    margin-left: 30%;
+    height:530px;
+  }
+  #name,#email {
+    margin-top:5px;
+    width:150px;
+    height:30px;
+    margin-left:70px;
+  }
+  #name-label, #email-label, #number-label,  #dropdown-label,#comment-label {
+      color:white;
+      font-weight: bold;
+  }
+  #number{
+    width:150px;
+    height:30px;
+    margin-left:55px;
+  }
+  #dropdown {
+    width:156px;
+    height:30px;
+    margin-left:77px;
+  }
+  
+  label {
+    margin-left:80px;
+  }
+  #aa  {
+    margin-left:55px; 
+  }
+  #vehicle1,#vehicle2,#vehicle3 {
+    margin-left:85px; 
+  }
+  #comment  {
+      margin-left: 180px;
+  }
+  #submit {
+      width: 100px;
+      height: 37px;
+      margin-top: 10px;
+      border: 2px solid black;
+      padding: 15px;
+      margin-left: 42%;
+  }
+  #submit:hover {
+      background-color: blue;
+      color:white;
+      font-weight: bold;
+      border: none;
+  }
+  #submit text{
+      line-height: 37px;
+  }

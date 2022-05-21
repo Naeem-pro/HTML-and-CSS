@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Documentd</title>
+    <style>
+       h1{
+           padding: 0 0 0 40px;
+       }
+       #wrapper{
+           background-color: #eee;
+           list-style: none;
+           margin: 50px;
+           padding: 20px;
+       }
+       #wrapper li{
+           display: flex;
+           padding: 5px 0;
+           justify-content: flex-end;  
+       }
+       #wrapper li label{
+           flex: 1;
+       }
+       #wrapper li input{
+           flex-grow: 3;
+       }
+       .container {
+           display:flex;
+           justify-content: center;
+           padding-left: 37px;
+           padding-right: 37px;
+        }
+       .service{
+           width: 30%;
+           height: 220px;
+           box-shadow: 0 10px 20px 2px rgba(0,0,0,0.2);
+           margin: 10px;
+           padding: 15px;
+           background-color:rgb(103 19 45); 
+           border-top-left-radius: 40px;
+           border-bottom-right-radius: 40px;
+         }
+      
+       h2{
+           text-align: center;
+           color: white;
+       }
+       .service,p {
+           color:white;
+           text-align: justify;
+       }
+       a{
+           width: 70px;
+           display: block;
+           text-decoration: none;
+           padding: 8px 13px;
+           background-color: grey;
+           color: #fff;
+           border: 2px solid transparent;
+       }
+       a:hover{
+        background-color: transparent;
+        border: 2px solid grey;
+        color: grey;
+       }
+       footer{
+           height: 50px;
+           margin-bottom: 0;
+           margin-top: 40px;
+           background-color: #3838b5;;
+       }
+       footer h2{
+           color: white;
+           text-align: center;
+           font-style: italic;
+           font-weight: bold;
+           font-family: 'Times New Roman', Times, serif;
+           line-height: 50px;
+       }
+    </style>
+</head>
+<body>
+   <h1>Align form items using flex items</h1>
+   <form action="">
+       <ul id="wrapper">
+          <li><label for="">Name</label>
+          <input type="text"></li>
+        <li><label for="">class</label>
+        <input type="text"></li>
+        <li><label for="">email Address</label>
+            <input type="email"></li>
+            <li>
+                <button type="submit">save</button>
+            </li>
+     </ul>
+   </form>
+   <div class="container">
+       <div class="service">
+           <h2>Record saving</h2>
+           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis soluta consequatur optio fuga sequi explicabo cupiditate incidunt ipsa fugiat temporibus! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque obcaecati repudiandae eos nostrum doloremque possimus natus vero maiores in. Repellat.</p>
+            <a href="#">Read more</a>
+        </div>
+       <div class="service">
+        <h2>Record updating</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis soluta consequatur optio fuga sequi explicabo cupiditate incidunt ipsa fugiat temporibus! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione quaerat exercitationem delectus fugiat voluptatum ducimus tempora. Adipisci earum deleniti sed!</p>
+        <a href="#">Read more</a>
+    </div>
+    <div class="service">
+        <h2>Record deleting</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis soluta consequatur optio fuga sequi explicabo cupiditate incidunt ipsa fugiat temporibus! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus in inventore est? Voluptas dolores odio impedit rerum cum expedita blanditiis.</p>
+        <a href="#">Read more</a>
+    </div>
+   </div>
+   <footer>
+       <h2>Practice Project of flexbox css</h2>
+   </footer>
+</body>
+</html>

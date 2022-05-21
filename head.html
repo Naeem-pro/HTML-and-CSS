@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <style>
+        #cal{
+            height: 350px;
+            width:300px;
+            background-color: rgba(73, 70, 70, 0.8);
+            margin: 36%;
+            margin-top: 5px;
+            margin-bottom: 20px;
+            border-radius: 10px;
+        }
+        #value{
+            height: 30px;
+            width: 250px;
+            margin: 20px;
+            margin-left: 20px;
+            background-color: rgb(212, 197, 104);
+        }
+       #butn{
+           display: flex;
+           justify-content: space-around;
+           flex-wrap: wrap;
+       }
+        #btn1,#btn2,#btn3,#btn4,#btn5,#btn6,#btn7,#btn8,#btn9,#btn10,#btn11,#btn12,#btn13,#btn14,#btn15,#btn16,#btn17,#btn18,#btn19,#btn20{
+            height: 35px;
+            width: 45px;
+            margin: 8px;
+            border-radius: 10px;
+            border-right: none;
+        }
+        #btn4,#btn8,#btn12,#btn16{
+            background-color: rgba(247, 7, 7, 0.897);
+        }
+        #btn20{
+            background-color: orange;
+        }
+        #btn5,#btn6,#btn7,#btn9,#btn10,#btn11,#btn13,#btn14,#btn15,#btn17,#btn18,#btn19 {
+            background-color:rgb(49, 48, 48);
+            color: white;
+        }
+        
+    </style>
+</head>
+<body>
+    <div id="cal">
+        <input type="text" placeholder="" id="value">
+        <div id="butn">
+            <button id="btn1">mrc</button>
+            <button id="btn2">m-</button>
+            <button id="btn3">m+</button>
+            <button id="btn4">/</button>
+            <button id="btn5">7</button>
+            <button id="btn6">8</button>
+            <button id="btn7">9</button>
+            <button id="btn8">/</button>
+            <button id="btn9">4</button>
+            <button id="btn10">5</button>
+            <button id="btn11">6</button>
+            <button id="btn12">-</button>
+            <button id="btn13">1</button>
+            <button id="btn14">2</button>
+            <button id="btn15">3</button>
+            <button id="btn16">+</button>
+            <button id="btn17">0</button>
+            <button id="btn18">.</button>
+            <button id="btn19">C</button>
+            <button id="btn20">=</button>
+        </div>
+    </div>
+    
+</body>
+</html>

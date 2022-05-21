@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+*::selection{
+    background-color: red;
+    color: white;
+}
+#page {
+    height: 625px;
+    width: 100%;
+    background-image: linear-gradient(to top, rgba(255,0,0,0), rgb(39, 33, 33)),url(1.jpg);
+    background-size: cover;
+    background-position:top;
+}
+header{
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#menu ul{
+    list-style: none;
+    display: flex;
+    margin-right: 69px;
+}
+#menu ul li a{
+    text-decoration: none;
+    padding: 15px;
+    color: white;
+}
+#menu ul li a:hover{
+    color: red;
+}
+.logo h2{
+    margin-left: 69px;
+    color: red;
+    font-size: 25px;
+}
+
+.content h2{
+    padding: 40px;
+    text-align: center;
+    margin-top: 9%;
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+}
+.content h3{
+    text-align: center;
+    color: white;
+}
+span{
+    color: red;
+}
+#bn {
+    display: flex;
+    justify-content: center;
+    margin-top:30px;
+}
+#btn1,#btn2 {
+    margin: 14px;
+    height: 40px;
+    width: 90px;
+    cursor: pointer;
+    padding: 10px;
+    border: 2px solid red;
+    background: transparent;
+}
+#btn1:hover{
+    background-color: red;
+    color: white;
+    font-weight: bold;
+}
+#btn2:hover{
+    background-color:red;
+    color: white;
+    font-weight: bold;
+}
